@@ -10,6 +10,8 @@ class App extends Component {
                 <h1>{lang.name}</h1>
                 <button onClick={() => this.props.changeLang("ru")}>change ru</button>
                 <button onClick={() => this.props.changeLang("uz")}>change uz</button>
+</br>
+                <a href="https://github.com/IkhtiyorDev/multi-lan-app-with-react-redux">Github</a>
             </div>
         );
     }
